@@ -1,7 +1,7 @@
 
 ## Chapter 4 - Building a Social Website
 
-I have completed the following topics:
+In this part,I have completed the following topics:
 
 * Creating functionality for the user to log in, log out, reset the password
 * Extending the user model with a custom profile model
@@ -17,21 +17,20 @@ Below is the list of my experiences -
 
 ## Chapter 5 - Sharing Content on Your Website
 
-* Creating many-to-many relationships
-* Customizing behavior for forms
-* Using jQuery with Django
-* Building a jQuery bookmarklet
-* Generating image thumbnails using easy-thumbnails
-* Implementing AJAX views and integrating them with jQuery
-* Creating custom decorators for views
-* Building AJAX pagination
+In this part, I have completed the following topics:
+
+* Sharing the content from other sites on your website.
+* It leverages the AJAX feature along with JQuery. I never used AJAX before, but it didn't look hard while following this in the exercise. This is one of the features that I will use in my project.
+
+Below is the list of my experiences -
+
+* While importing certifi, I got an error. While trying multiple times, I realized that the syntax was wrong. It should be pip install --upgrade certifi. I was trying  certify.
+
 
 ## Chapter 6 - Tracking User Actions
 
-* Building a follow system
-* Creating many-to-many relationships with an intermediary model
-* Creating an activity stream application
-* Adding generic relations to models
-* Optimizing QuerySets for related objects
-* Using signals for denormalizing counts
-* Storing item views in Redis
+In this part, I have completed the following topics:
+
+* Building a follow system and create a user activity stream.
+* Create an intermediary model for the relationship 
+* I didn't follow the book's Redis sections as this wasn't available on my computer.
