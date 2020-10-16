@@ -1,12 +1,11 @@
 
 ## Chapter 4 - Building a Social Website
 
-This chapter covers the following topics:
+I have covered following topics:
 
-* Using the Django authentication framework
-* Creating user registration views
+* Creating functionlaity for user to log in, log out, reset the password
 * Extending the user model with a custom profile model
-* Adding social authentication with Python Social Auth
+
 
 ## Chapter 5 - Sharing Content on Your Website
 
