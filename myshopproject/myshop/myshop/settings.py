@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'cart.apps.CartConfig',
     'shop.apps.ShopConfig',
     'orders.apps.OrdersConfig',
+    'payment.apps.PaymentConfig',
 ]
 
 MIDDLEWARE = [
@@ -123,8 +124,23 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 CART_SESSION_ID = 'cart'
+
+# Braintree settings
+BRAINTREE_MERCHANT_ID = '6z4m9w2mbr9hkqdk'  # Merchant ID
+BRAINTREE_PUBLIC_KEY = 'm3bjthvptkp97c2y'   # Public Key
+BRAINTREE_PRIVATE_KEY = '49faad47a02822b536df25867edbb07e'  # Private key
+
+import braintree
+
+BRAINTREE_CONF = braintree.Configuration(
+    braintree.Environment.Sandbox,
+    BRAINTREE_MERCHANT_ID,
+    BRAINTREE_PUBLIC_KEY,
+    BRAINTREE_PRIVATE_KEY
+)
