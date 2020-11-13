@@ -132,9 +132,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 CART_SESSION_ID = 'cart'
 
 # Braintree settings
-BRAINTREE_MERCHANT_ID = '6z4m9w2mbr9hkqdk'  # Merchant ID
-BRAINTREE_PUBLIC_KEY = 'm3bjthvptkp97c2y'   # Public Key
-BRAINTREE_PRIVATE_KEY = '49faad47a02822b536df25867edbb07e'  # Private key
+BRAINTREE_MERCHANT_ID = 'XXXX'  # Merchant ID
+BRAINTREE_PUBLIC_KEY = 'YYYYYY'   # Public Key
+BRAINTREE_PRIVATE_KEY = 'ZZZZZZ'  # Private key
 
 import braintree
 
