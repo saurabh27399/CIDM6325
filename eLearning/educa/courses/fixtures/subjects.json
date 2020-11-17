@@ -1,0 +1,46 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "T1",
+    "slug": "t1"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 2,
+  "fields": {
+    "title": "T2",
+    "slug": "t2"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 3,
+  "fields": {
+    "title": "T3",
+    "slug": "t3"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 4,
+  "fields": {
+    "title": "T4",
+    "slug": "t4"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "subject": 1,
+    "title": "T1",
+    "slug": "t1",
+    "overview": "Test",
+    "created": "2020-11-17T06:04:28.515Z"
+  }
+}
+]
